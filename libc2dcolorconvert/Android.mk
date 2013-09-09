@@ -10,6 +10,8 @@ LOCAL_C_INCLUDES := \
     $(TOP)/frameworks/native/include/media/openmax \
     $(TOP)/hardware/qcom/display/$(TARGET_BOARD_PLATFORM)/libcopybit
 
+LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+
 LOCAL_SHARED_LIBRARIES := liblog libdl
 
 LOCAL_MODULE_TAGS := optional
